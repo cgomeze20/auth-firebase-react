@@ -1,0 +1,29 @@
+.Card{
+    border: 1px solid #ddd;
+    width: 300px;
+    height: 100px;
+    background-color: #fff;
+    padding: .6rem;
+}
+
+.ButtonsContainer{
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ButtonsContainer button{
+    padding: .4rem;
+    border: none;
+    font-weight: bold;
+}
+
+.ButtonsContainer button:nth-child(1){
+    background-color: #fec107;
+}
+
+.ButtonsContainer button:nth-child(2){
+    background-color: #26e;
+    color: #fff;
+}

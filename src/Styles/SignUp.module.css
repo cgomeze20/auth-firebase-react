@@ -1,0 +1,32 @@
+.SignUp{
+    border: 2px solid #ddd;
+    width: 500px;
+    height: 250px;
+    margin: 400px auto;
+    padding: 2rem
+}
+
+.SignUp h1{
+    text-align: center;
+}
+
+.SignUp input{
+    display: block;
+    padding: .5rem;
+    width: 90%;
+    margin: 1rem auto;
+    outline: none;
+    border: 1px solid #ddd;
+}
+
+.SignUp button{
+    display: block;
+    margin: 0 auto;
+    padding: .6rem;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    background-color: #26e;
+    color: #fff;
+}

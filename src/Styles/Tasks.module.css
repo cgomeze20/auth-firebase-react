@@ -1,0 +1,54 @@
+
+.Head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .7rem;
+}
+
+.Formularios{
+    padding: 1rem;
+}
+
+form{
+    border: 1px solid #ddd;
+    margin: auto;
+    padding: 1rem;
+
+}
+
+form h1{
+    text-align: center;
+}
+form input{
+    display: block;
+    width: 80%;
+    padding: .5rem;
+    margin:  0 auto;
+    border: 1px solid #ccc;
+}
+
+
+form button{
+    display: inline-block;
+    padding: .5rem 1rem;
+    margin: .7rem;
+    border: none;
+    font-weight: bold;
+    background-color: #26e;
+    color: #fff;
+}
+
+form button:nth-child(2){
+    background-color: #eee;
+    color: #aaa;
+}
+
+.Cards{
+    background-color:#eee;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    gap: 10px;
+    place-items: center;
+    padding: 1rem 0;
+}
